@@ -1,0 +1,27 @@
+body {font-family: sans-serif;
+}
+#img {height: 200px;
+}
+.row td {
+  background: #678675;
+}
+a:link {
+background: #369;
+}
+a:visited {
+ background: #999;
+  }
+
+a:hover {
+text-decoration: none;
+  }
+a:active {
+  color: blue;
+}
+.block:before {
+  content: '>';
+}
+
+.block:after {
+  content: attr(data-count);
+}
